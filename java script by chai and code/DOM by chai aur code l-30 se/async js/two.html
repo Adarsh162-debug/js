@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur js</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+  /* way1
+    setInterval(function(){
+        console.log("hii adarsh",Date.now());
+    },2000);*/
+ const saydate= function(){
+        console.log("hii adarsh",Date.now());
+ }
+
+     const stop=setInterval(saydate,2000);
+     clearInterval(stop);
+
+
+
+</script>
+</html>
